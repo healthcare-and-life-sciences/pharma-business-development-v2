@@ -1,65 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <types>
-        <members>AppSwitcher</members>
-        <name>AppMenu</name>
-    </types>
+    <fullName>PharmaBizDev</fullName>
+    <description>Pharma Business Development</description>
     <types>
         <members>BDL_Alliance_Management</members>
         <members>BDL_Evaluation</members>
         <name>CustomApplication</name>
     </types>
     <types>
-        <members>Account</members>
-        <members>Asset</members>
+        <members>Asset.BDL_Therapeutic_Area__c</members>
+        <members>BDL_Alliance_Project__c.BDL_Asset__c</members>
+        <members>BDL_Alliance_Project__c.BDL_Deadline__c</members>
+        <members>BDL_Alliance_Project__c.BDL_Deal__c</members>
+        <members>BDL_Alliance_Project__c.BDL_Description__c</members>
+        <members>BDL_Alliance_Project__c.BDL_Exceptions__c</members>
+        <members>BDL_Alliance_Project__c.BDL_Goals__c</members>
+        <members>BDL_Alliance_Project__c.BDL_Kickoff__c</members>
+        <members>BDL_Alliance_Project__c.BDL_Phase__c</members>
+        <members>BDL_Alliance_Project__c.BDL_Project_Status_Indicator__c</members>
+        <members>BDL_Alliance_Project__c.BDL_Project_Status__c</members>
+        <members>BDL_Alliance_Project__c.BDL_Reason_for_Red_Status__c</members>
+        <members>BDL_Alliance_Project__c.BDL_Territories__c</members>
+        <members>BDL_Alliance_Project__c.BDL_Type__c</members>
+        <members>BDL_Deal_Risk_Assessment__c.BDL_Assessment_Type__c</members>
+        <members>BDL_Deal_Risk_Assessment__c.BDL_Mitigation_Plan__c</members>
+        <members>BDL_Deal_Risk_Assessment__c.BDL_Opportunity__c</members>
+        <members>BDL_Deal_Risk_Assessment__c.BDL_Risk_Description__c</members>
+        <members>BDL_Deal_Risk_Assessment__c.BDL_Risk_Status__c</members>
+        <members>BDL_Deal_Risk_Assessment__c.BDL_Risk__c</members>
+        <members>BDL_Deal_Risk_Assessment__c.BDL_Role__c</members>
+        <members>BDL_Deal_Risk_Assessment__c.BDL_Summary__c</members>
+        <members>BDL_Market_Performance__c.Asset__c</members>
+        <members>BDL_Market_Performance__c.BDL_Country__c</members>
+        <members>BDL_Milestone__c.BDL_Alliance_Project__c</members>
+        <members>BDL_Milestone__c.BDL_Deadline__c</members>
+        <members>BDL_Milestone__c.BDL_Description__c</members>
+        <members>BDL_Milestone__c.BDL_Extended_Dates__c</members>
+        <members>BDL_Milestone__c.BDL_Kickoff__c</members>
+        <members>BDL_Milestone__c.BDL_Predecessor_Milestone__c</members>
+        <members>BDL_Milestone__c.BDL_Status__c</members>
+        <members>BDL_Milestone__c.BDL_Successor_Milestone__c</members>
+        <members>BDL_Obligation_Payment__c.BDL_Amount__c</members>
+        <members>BDL_Obligation_Payment__c.BDL_Date_of_Payment__c</members>
+        <members>BDL_Obligation_Payment__c.BDL_Obligation__c</members>
+        <members>BDL_Obligation_Payment__c.BDL_Payment_Status__c</members>
+        <members>BDL_Obligation__c.BDL_Alliance_Project__c</members>
+        <members>BDL_Obligation__c.BDL_Due_Amount__c</members>
+        <members>BDL_Obligation__c.BDL_Due_Date__c</members>
+        <members>BDL_Obligation__c.BDL_Open_Amount__c</members>
+        <members>BDL_Obligation__c.BDL_Paid_to_Date__c</members>
+        <members>BDL_Obligation__c.BDL_Status__c</members>
+        <members>Lead.BDL_Indications__c</members>
+        <members>Lead.BDL_Therapeutic_Area__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
         <members>BDL_Alliance_Project__c</members>
         <members>BDL_Deal_Risk_Assessment__c</members>
         <members>BDL_Market_Performance__c</members>
         <members>BDL_Milestone__c</members>
         <members>BDL_Obligation_Payment__c</members>
         <members>BDL_Obligation__c</members>
-        <members>Lead</members>
-        <members>Opportunity</members>
         <name>CustomObject</name>
     </types>
     <types>
-        <members>BDL_Market_Performance__c-en_US</members>
-        <name>CustomObjectTranslation</name>
-    </types>
-    <types>
         <members>BDL_Alliance_Project__c</members>
-        <members>BDL_Deal_Risk_Assessment__c</members>
-        <members>BDL_Milestone__c</members>
-        <members>BDL_Obligation__c</members>
-        <members>standard-home</members>
         <name>CustomTab</name>
     </types>
     <types>
         <members>BDL_Account_Record_Page</members>
         <members>BDL_Alliance_Project_Record_Page</members>
         <members>BDL_Asset_Lightning_Page</members>
-        <members>BDL_Contact_Record_Page</members>
         <members>BDL_Evaluation_Home_Page_Default</members>
         <members>BDL_Lead_Lightning_Page</members>
         <members>BDL_Opportunity_Record_Page</members>
         <members>BD_L_Alliance_Management_UtilityBar</members>
         <members>BD_L_Evaluation_UtilityBar</members>
-        <members>ContactCenter_UtilityBar</members>
-        <members>CrisisCenter_UtilityBar</members>
         <members>Obligation_Record_Page</members>
         <name>FlexiPage</name>
     </types>
     <types>
-        <members>BDL_Milesonte_update</members>
-        <members>BDL_Milestone_Update_Successors_with_extended_Date</members>
-        <name>Flow</name>
-    </types>
-    <types>
-        <members>BDL_Asset_Phase</members>
-        <members>BDL_BDL_Status</members>
         <members>BDL_Countries</members>
         <members>BDL_Deal_Types</members>
-        <members>BDL_Development_Phase</members>
         <members>BDL_Indications</members>
         <members>BDL_Project_Phase</members>
         <members>BDL_Territories</members>
@@ -67,47 +89,27 @@
         <name>GlobalValueSet</name>
     </types>
     <types>
-        <members>BDL_BDL_All_Users</members>
-        <name>Group</name>
-    </types>
-    <types>
-        <members>Account-BDL Account Admin</members>
-        <members>Asset-BDL Asset Layout Admin</members>
         <members>BDL_Alliance_Project__c-BDL Alliance Project Layout Admin</members>
         <members>BDL_Deal_Risk_Assessment__c-BDL Deal Risk Assessment Layout Admin</members>
         <members>BDL_Market_Performance__c-Market Performance Layout</members>
         <members>BDL_Milestone__c-BD%26L Milestone Layout</members>
         <members>BDL_Obligation_Payment__c-BDL Obligation Payment Layout Admin</members>
         <members>BDL_Obligation__c-BDL Obligation Layout Admin</members>
-        <members>Contact-BDL Contact Layout</members>
-        <members>Lead-BDL Lead Layout Admin</members>
-        <members>Opportunity-BDL Opportunity Admin</members>
         <name>Layout</name>
     </types>
     <types>
-        <members>Contact.All_Contacts</members>
+        <members>Asset.BDL_All_BDL_Assets</members>
+        <members>BDL_Alliance_Project__c.All</members>
+        <members>BDL_Deal_Risk_Assessment__c.All</members>
+        <members>BDL_Milestone__c.All</members>
+        <members>BDL_Obligation__c.All</members>
+        <members>Lead.BD_L_Leads</members>
         <name>ListView</name>
     </types>
     <types>
-        <members>BDL_In_Licensing</members>
-        <members>BDL_Out_Licensing</members>
-        <name>PathAssistant</name>
+        <members>BDL_Obligation__c.BDL_Financial</members>
+        <members>BDL_Obligation__c.BDL_Non_Financial</members>
+        <name>RecordType</name>
     </types>
-    <types>
-        <members>BDL_BDL_Admin</members>
-        <name>PermissionSet</name>
-    </types>
-    <types>
-        <members>Opportunity</members>
-        <name>Settings</name>
-    </types>
-    <types>
-        <members>AssetStatus</members>
-        <members>ContactRole</members>
-        <members>OpportunityStage</members>
-        <members>OpportunityType</members>
-        <members>SalesTeamRole</members>
-        <name>StandardValueSet</name>
-    </types>
-    <version>57.0</version>
+    <version>58.0</version>
 </Package>

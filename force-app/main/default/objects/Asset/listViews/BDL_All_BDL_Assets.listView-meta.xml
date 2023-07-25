@@ -8,7 +8,4 @@
     <columns>ASSET.RECORDTYPE</columns>
     <filterScope>Everything</filterScope>
     <label>All BDL Assets</label>
-    <sharedTo>
-        <group>BDL_BDL_All_Users</group>
-    </sharedTo>
 </ListView>
