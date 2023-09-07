@@ -35,12 +35,6 @@ This gives a single view in my console (both desktop and mobile) to manage and p
 
 * Pharma Sales AE
 
-### **User Workflow:**
-
-* Please see
-* https://drive.google.com/drive/folders/1RUuuEoDPdjiXs-ZCADKZK4BFJMlCOR24
-  https://drive.google.com/drive/folders/1RUuuEoDPdjiXs-ZCADKZK4BFJMlCOR24
-
 
 
 ## Configuration Requirements
